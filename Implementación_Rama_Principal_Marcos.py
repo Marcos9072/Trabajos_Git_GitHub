@@ -7,10 +7,13 @@ for i in lista :
     
 print(f'\nLa suma de los valores de la lista es : {suma}')
 
-
 multiplicacion = 1
 
 for i in lista :
     multiplicacion *= i
 
 print(f'\nLa multiplicacion de los elementos de la lista es : {multiplicacion}')
+
+
+lista.append(4)
+print(f'\nLa longitud actualizada es : {len(lista)}')
